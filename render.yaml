@@ -3,11 +3,10 @@ services:
     name: onboarding
     env: docker
     repo: https://github.com/henrikrender/render-onboarding
-
-  - type: redis
-    name: onboarding-redis
-    env: docker
     envVars:
       - key: REDIS_URL
         value: redis://red-cav04e50mal15ku9cpcg:6379
+
+  - type: redis
+    name: onboarding-redis
   
