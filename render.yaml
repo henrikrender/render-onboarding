@@ -9,4 +9,5 @@ services:
 
   - type: redis
     name: onboarding-redis
+    ipAllowList: []
   
